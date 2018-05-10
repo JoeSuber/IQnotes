@@ -37,7 +37,7 @@ class IQplotter(object):
 if __name__ == "__main__":
     us_jews = IQplotter(mean_pop_iq=109)
     us_goys = IQplotter(peeps=200000000, mean_pop_iq=100, name="Goys")
-    us_black = IQplotter(peeps=313000000 * 0.14, mean_pop_iq=89, name="Blacks")
+    us_black = IQplotter(peeps=313000000 * 0.14, mean_pop_iq=89.9, name="Blacks")
 
     us_black.plot()
     us_goys.plot()
